@@ -238,6 +238,7 @@ img {
     }
     .links {
         flex-wrap: wrap;
+        text-align: center;
     }
     img {
         width: 150px;
