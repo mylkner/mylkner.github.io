@@ -3,9 +3,309 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>mylkner.github.io</title>
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/079fd51a88.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Mylo Faulkner</title>
     </head>
+
     <body>
-        <h1></h1>
+        <nav class="navbar">
+            <p class="name">Mylo Faulkner</p>
+
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <section id="home">
+            <h1 class="home-header section-header">Hey, I'm Mylo,</h1>
+            <h1 class="home-subheader section-header">
+                A Beginner Web Developer.
+            </h1>
+
+            <artice class="about-me">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur iste fugit ab omnis labore molestias est quia quod?
+                Ipsa modi quod eius, fugit esse libero sed! Eos totam ullam
+                atque.
+            </artice>
+        </section>
+
+        <section id="projects">
+            <h1 class="projects-header section-header">Projects</h1>
+
+            <h2 class="project-title">JavaScript</h2>
+            <h3 class="project-subtitle">
+                Projects made as part of my freeCodeCamp JavaScript Algorithms
+                and Data Structures certificate.
+            </h3>
+            <div class="projects">
+                <a
+                    href="https://mylkner.github.io/Palindrome-Checker"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/palindrome.png"
+                            alt="Palindrome Checker Cover Picture"
+                        />
+                        <article>
+                            My first project using Js. Enter something and it
+                            will tell you whether or not your input was a
+                            palindrome.
+                        </article>
+                    </div>
+                </a>
+
+                <a
+                    href="https://mylkner.github.io/Roman-Numeral-Converter"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/roman.png"
+                            alt="Roman Numeral Converter Cover Picture"
+                        />
+                        <article>
+                            A project that relies on recursion to convert your
+                            input to roman numerals.
+                        </article>
+                    </div>
+                </a>
+
+                <a
+                    href="https://mylkner.github.io/Phone-Number-Validator"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/phone.png"
+                            alt="Phone Number Validator Cover Picture"
+                        />
+                        <article>
+                            A project that served as my introduction to regular
+                            expressions. Validates US phone numbers only.
+                        </article>
+                    </div>
+                </a>
+
+                <a
+                    href="https://mylkner.github.io/Pokemon-Search-App"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/pokemon.png"
+                            alt="Pokemon Searcher Cover Picture"
+                        />
+                        <article>
+                            First project where I had to use an API. Searches
+                            for pokémon and returns info about them.
+                        </article>
+                    </div>
+                </a>
+            </div>
+
+            <h2 class="project-title">React</h2>
+            <h3 class="project-subtitle">
+                Projects made as part of my freeCodeCamp Front End Development
+                Libraries certificate.
+            </h3>
+            <div class="projects">
+                <a
+                    href="https://mylkner.github.io/random-quote-machine"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/quote.png"
+                            alt="Random Quote Machine Cover Picture"
+                        />
+                        <article>
+                            First project using react. Generates a random quote
+                            from a small API.
+                        </article>
+                    </div>
+                </a>
+
+                <a
+                    href="https://mylkner.github.io/markdown-previewer"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/markdown.png"
+                            alt="Markdown Previewer Cover Picture"
+                        />
+                        <article>
+                            A markdown previewer that utilises markedjs.
+                        </article>
+                    </div>
+                </a>
+
+                <a
+                    href="https://mylkner.github.io/drum-machine"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/drum.png"
+                            alt="Drum Machine Cover Picture"
+                        />
+                        <article>Makes cool noises and stuff.</article>
+                    </div>
+                </a>
+
+                <a href="https://mylkner.github.io/calculator" target="_blank">
+                    <div class="project-content">
+                        <img
+                            src="./images/calc.png"
+                            alt="Calculator Cover Picture"
+                        />
+                        <article>Does calculations and whatnot.</article>
+                    </div>
+                </a>
+
+                <a href="https://mylkner.github.io/255clock" target="_blank">
+                    <div class="project-content">
+                        <img
+                            src="./images/clock.png"
+                            alt="25 + 5 Clock Cover Picture"
+                        />
+                        <article>
+                            Who knew implementing a timer would be so difficult.
+                            A 25 + 5 clock is a time management system meant to
+                            improve work efficiency.
+                        </article>
+                    </div>
+                </a>
+            </div>
+
+            <h2 class="project-title">D3</h2>
+            <h3 class="project-subtitle">
+                Projects made as part of my freeCodeCamp Data Visualisation
+                certificate.
+            </h3>
+            <div class="projects">
+                <a href="https://mylkner.github.io/Bar-Chart" target="_blank">
+                    <div class="project-content">
+                        <img
+                            src="./images/bar.png"
+                            alt="Bar Chart Cover Picture"
+                        />
+                        <article>
+                            First project with D3.js. Bar chart with statistics
+                            on US GDP from 1947 to 2015.
+                        </article>
+                    </div>
+                </a>
+
+                <a
+                    href="https://mylkner.github.io/Scatterplot-Graph"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/scatter.png"
+                            alt="Scatterplot Graph Cover Picture"
+                        />
+                        <article>
+                            Scatterplot Graph detailing cyclists who got caught
+                            doping and when.
+                        </article>
+                    </div>
+                </a>
+
+                <a href="https://mylkner.github.io/Heat-Map" target="_blank">
+                    <div class="project-content">
+                        <img
+                            src="./images/heat.png"
+                            alt="Heat Map Cover Picture"
+                        />
+                        <article>
+                            Heat map detailing global land surface temperature
+                            and its variance from 1753 to 2015.
+                        </article>
+                    </div>
+                </a>
+
+                <a
+                    href="https://mylkner.github.io/Choropleth-Map"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/choro.png"
+                            alt="Choropleth Map Cover Picture"
+                        />
+                        <article>
+                            Choropleth map showcasing higher level education
+                            statistics on US population. (If map doesn't load
+                            just refresh the page.)
+                        </article>
+                    </div>
+                </a>
+
+                <a
+                    href="https://mylkner.github.io/Treemap-Diagram"
+                    target="_blank"
+                >
+                    <div class="project-content">
+                        <img
+                            src="./images/tree.png"
+                            alt="Treemap Diagram Cover Picture"
+                        />
+                        <article>
+                            Treemap diagram listing top video game sales.
+                        </article>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1 class="skills-header section-header">Skills</h1>
+
+            <div class="skill-container">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">D3 JS</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="contact-header section-header">Contact Me</h1>
+
+            <div class="gridContainer">
+                <span class="grid"></span>
+                <span class="gridIcons">
+                    <a
+                        href="https://github.com/mylkner"
+                        target="_blank"
+                        class="contactLinks"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/mylo-faulkner-3a98922b7"
+                        target="_blank"
+                        class="contactLinks"
+                    >
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </span>
+                <span class="grid"></span>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
     </body>
 </html>
