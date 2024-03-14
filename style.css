@@ -13,6 +13,7 @@ body {
 }
 
 .navbar,
+.links,
 #home,
 .projects,
 .skill-container,
@@ -41,7 +42,7 @@ body {
 }
 
 .links {
-    display: flex;
+    flex-wrap: wrap;
     gap: 80px;
     margin-right: 20px;
 }
@@ -246,12 +247,6 @@ img {
     .about-me,
     .project-content {
         width: 300px;
-    }
-    .links {
-        flex-wrap: wrap;
-    }
-    .links a {
-        text-align: center;
     }
     img {
         width: 150px;
