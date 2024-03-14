@@ -8,6 +8,8 @@
 
 body {
     overflow-x: hidden;
+    background-color: #494949;
+    color: white;
 }
 
 .navbar,
@@ -85,6 +87,7 @@ section {
 .about-me {
     font-size: 20px;
     width: 500px;
+    color: rgb(187, 187, 187);
 }
 
 #projects {
@@ -101,6 +104,10 @@ section {
     text-align: center;
     margin-bottom: 20px;
     padding: 0 10px;
+}
+
+.project-subtitle {
+    color: rgb(187, 187, 187);
 }
 
 .projects {
@@ -123,7 +130,7 @@ section {
     width: 500px;
     margin: 20px;
     padding: 20px;
-    box-shadow: 3px 3px 5px 3px #494949;
+    box-shadow: 3px 3px 5px 3px rgb(22, 22, 22);
     border-radius: 20px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -141,6 +148,7 @@ img {
 
 .project-content article {
     font-size: 18px;
+    color: white;
 }
 
 .skill-container {
@@ -153,9 +161,9 @@ img {
     width: 100px;
     height: 50px;
     padding: 20px 10px;
-    background-color: #494949;
+    background-color: rgb(22, 22, 22);
     color: white;
-    box-shadow: 2px 2px 5px 3px #494949;
+    box-shadow: 2px 2px 5px 3px rgb(22, 22, 22);
     transition: transform 0.1s ease;
 }
 
@@ -190,6 +198,7 @@ img {
 }
 
 .gridIcons i {
+    color: white;
     transform: scale(3);
     transition: transform 0.2s ease;
 }
@@ -199,7 +208,7 @@ img {
 }
 
 .contactLinks:visited {
-    color: black;
+    color: white;
 }
 
 .contactLinks:hover i {
@@ -238,6 +247,8 @@ img {
     }
     .links {
         flex-wrap: wrap;
+    }
+    .links a {
         text-align: center;
     }
     img {
