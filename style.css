@@ -42,7 +42,6 @@ body {
 }
 
 .links {
-    flex-wrap: wrap;
     gap: 80px;
     margin-right: 20px;
 }
@@ -247,6 +246,9 @@ img {
     .about-me,
     .project-content {
         width: 300px;
+    }
+    .links {
+        flex-wrap: wrap;
     }
     img {
         width: 150px;
