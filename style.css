@@ -211,20 +211,32 @@ img {
     .links {
         gap: 10px;
         margin-right: 10px;
-        font-size: 20px;
+    }
+    .gridContainer {
+        grid-template-columns: 30vw 40vw 30vw;
     }
 }
 
 @media (max-width: 520px) {
-    .links {
-        gap: 10px;
-        margin-right: 5px;
+    .name,
+    .links a {
         font-size: 20px;
     }
-    .about-me {
-        width: 400px;
+    .links {
+        margin-right: 5px;
     }
+    .about-me,
     .project-content {
         width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .project-content,
+    .project-content {
+        width: 300px;
+    }
+    .links {
+        flex-wrap: wrap;
     }
 }
