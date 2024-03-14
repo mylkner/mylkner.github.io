@@ -8,7 +8,7 @@
 
 body {
     overflow-x: hidden;
-    background-color: #494949;
+    background-color: #242424;
     color: white;
 }
 
@@ -87,7 +87,7 @@ section {
 .about-me {
     font-size: 20px;
     width: 500px;
-    color: rgb(187, 187, 187);
+    color: white;
 }
 
 #projects {
@@ -107,7 +107,8 @@ section {
 }
 
 .project-subtitle {
-    color: rgb(187, 187, 187);
+    color: white;
+    font-weight: normal;
 }
 
 .projects {
@@ -130,7 +131,8 @@ section {
     width: 500px;
     margin: 20px;
     padding: 20px;
-    box-shadow: 3px 3px 5px 3px rgb(22, 22, 22);
+    background-color: rgb(15, 15, 15);
+    box-shadow: 3px 3px 7px 3px rgb(22, 22, 22);
     border-radius: 20px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -161,14 +163,14 @@ img {
     width: 100px;
     height: 50px;
     padding: 20px 10px;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(15, 15, 15);
     color: white;
-    box-shadow: 2px 2px 5px 3px rgb(22, 22, 22);
+    box-shadow: 3px 3px 7px 3px rgb(22, 22, 22);
     transition: transform 0.1s ease;
 }
 
 .skill:hover {
-    transform: translate(0, -4px);
+    transform: translate(0, -8px);
 }
 
 #contact {
