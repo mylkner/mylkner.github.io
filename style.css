@@ -232,11 +232,14 @@ img {
 }
 
 @media (max-width: 400px) {
-    .project-content,
+    .about-me,
     .project-content {
         width: 300px;
     }
     .links {
         flex-wrap: wrap;
+    }
+    img {
+        width: 150px;
     }
 }
