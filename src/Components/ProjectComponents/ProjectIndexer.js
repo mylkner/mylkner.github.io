@@ -1,4 +1,4 @@
-const ProjectIndex = (props) => {
+const ProjectIndexer = (props) => {
     return (
         <div
             className={props.isActive ? "projectIndex active" : "projectIndex"}
@@ -6,4 +6,4 @@ const ProjectIndex = (props) => {
     );
 };
 
-export default ProjectIndex;
+export default ProjectIndexer;
