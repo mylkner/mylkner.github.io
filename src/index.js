@@ -7,7 +7,7 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-import Navbar from "./Features/Navbar";
+import Navbar from "./Navbar/Navbar";
 import ErrorPage from "./Routes/ErrorPage";
 import Home from "./Routes/Home";
 import Projects from "./Routes/Projects";
