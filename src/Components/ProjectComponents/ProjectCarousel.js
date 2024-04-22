@@ -13,11 +13,12 @@ const ProjectCarousel = (props) => {
     }, [props.projectData]);
 
     const projectArray = props.projectData.map(
-        ({ name, description, image }) => (
+        ({ name, description, image, link }) => (
             <ProjectCard
                 name={name}
                 description={description}
                 image={image}
+                link={link}
                 direction={direction}
             />
         )
