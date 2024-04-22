@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import BallAnimation from "../Features/BallAnimation";
+import BallAnimation from "../Components/BallAnimation";
 
 const Contact = () => {
     const titleVariants = {
