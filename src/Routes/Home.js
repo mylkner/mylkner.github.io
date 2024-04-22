@@ -18,8 +18,8 @@ const Home = () => {
     });
 
     const titleVariants = {
-        initial: { opacity: 0 },
-        final: { opacity: 1, transition: { duration: 1 } },
+        initial: { opacity: 0, x: -20 },
+        final: { opacity: 1, x: 0, transition: { duration: 0.3 } },
     };
 
     const articleVariants = {
