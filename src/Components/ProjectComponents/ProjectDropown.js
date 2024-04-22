@@ -12,7 +12,7 @@ const ProjectDropown = (props) => {
             x: 100,
             transition: { delayChildren: 0.3, staggerChildren: 0.1 },
         },
-        closed: { opacity: 0, x: 70 },
+        closed: { opacity: 0, x: 72 },
     };
 
     const item = {
