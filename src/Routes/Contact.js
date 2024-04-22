@@ -82,7 +82,7 @@ const Contact = () => {
                 <span className="line"></span>
             </motion.div>
 
-            {new Array(50).fill(0).map((_, i) => (
+            {new Array(20).fill(0).map((_, i) => (
                 <BallAnimation key={i} />
             ))}
         </div>
