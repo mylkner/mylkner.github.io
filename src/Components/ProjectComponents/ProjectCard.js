@@ -33,7 +33,7 @@ const ProjectCard = (props) => {
                     backgroundPosition: "center center",
                     backgroundRepeat: "no-repeat",
                 }}
-            ></div>
+            />
         </motion.a>
     );
 };
