@@ -59,15 +59,22 @@ const Contact = () => {
                 <span className="line"></span>
 
                 <span className="socialIcons">
-                    <a href="https://github.com/mylkner" className="socialLink">
-                        <FaGithub />
+                    <a
+                        href="https://github.com/mylkner"
+                        className="socialLink"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FaGithub className="socialIcon" />
                     </a>
 
                     <a
                         href="https://linkedin.com/in/mylo-faulkner"
                         className="socialLink"
+                        target="_blank"
+                        rel="noreferrer"
                     >
-                        <FaLinkedin />
+                        <FaLinkedin className="socialIcon" />
                     </a>
                 </span>
 
