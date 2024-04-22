@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaX } from "react-icons/fa6";
 import LinkComponent from "../Components/LinkComponent";
@@ -28,30 +28,25 @@ const Sidebar = () => {
                 {!isOpen ? <RxHamburgerMenu /> : <FaX />}
             </div>
 
-            <AnimatePresence>
-                {isOpen && (
-                    <motion.ul
-                        className="dropdownMenu"
-                        initial="closed"
-                        animate="open"
-                        exit="closed"
-                        variants={list}
-                    >
-                        {navRoutes.map((link) => (
-                            <motion.li
-                                key={link.title}
-                                variants={item}
-                                className="dropdownItem"
-                            >
-                                <LinkComponent
-                                    to={link.to}
-                                    title={link.title}
-                                />
-                            </motion.li>
-                        ))}
-                    </motion.ul>
-                )}
-            </AnimatePresence>
+            {isOpen && (
+                <motion.ul
+                    className="dropdownMenu"
+                    initial="closed"
+                    animate="open"
+                    exit="closed"
+                    variants={list}
+                >
+                    {navRoutes.map((link) => (
+                        <motion.li
+                            key={link.title}
+                            variants={item}
+                            className="dropdownItem"
+                        >
+                            <LinkComponent to={link.to} title={link.title} />
+                        </motion.li>
+                    ))}
+                </motion.ul>
+            )}
         </>
     );
 };
