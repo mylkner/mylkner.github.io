@@ -236,6 +236,12 @@ body {
     height: 250px;
     border-radius: 10px;
     box-shadow: 0 0 5px 5px rgb(24, 24, 23);
+    text-decoration: none;
+    color: white;
+}
+
+.projectContainer:visited {
+    color: white;
 }
 
 .projectInfo {
