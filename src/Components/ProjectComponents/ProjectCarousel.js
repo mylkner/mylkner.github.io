@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
@@ -7,6 +7,10 @@ import ProjectIndex from "./ProjectIndexer";
 const ProjectCarousel = (props) => {
     const [currentProject, setCurrentProject] = useState(0);
     const [direction, setDirection] = useState(null);
+
+    useEffect(() => {
+        setCurrentProject(0);
+    }, [props.projectData]);
 
     const projectArray = props.projectData.map(
         ({ name, description, image }) => (
