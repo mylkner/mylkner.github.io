@@ -12,7 +12,7 @@ const Sidebar = () => {
         open: {
             opacity: 1,
             x: 0,
-            transition: { delayChildren: 0.4, staggerChildren: 0.1 },
+            transition: { delayChildren: 0.3, staggerChildren: 0.1 },
         },
         closed: { opacity: 0, x: 100 },
     };
