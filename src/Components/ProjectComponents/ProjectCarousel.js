@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
-import ProjectIndex from "./ProjectIndex";
+import ProjectIndex from "./ProjectIndexer";
 
 const ProjectCarousel = (props) => {
     const [currentProject, setCurrentProject] = useState(0);
