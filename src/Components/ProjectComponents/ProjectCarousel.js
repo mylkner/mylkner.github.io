@@ -61,7 +61,6 @@ const ProjectCarousel = (props) => {
                     <ProjectIndex key={i} isActive={i === currentProject} />
                 ))}
             </div>
-            ;
         </>
     );
 };
