@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import BallAnimation from "../Features/BallAnimation";
 
 const Contact = () => {
     const titleVariants = {
@@ -80,6 +81,10 @@ const Contact = () => {
 
                 <span className="line"></span>
             </motion.div>
+
+            {new Array(50).fill(0).map((_, i) => (
+                <BallAnimation key={i} />
+            ))}
         </div>
     );
 };
