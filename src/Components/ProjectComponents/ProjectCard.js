@@ -26,9 +26,14 @@ const ProjectCard = (props) => {
                 <h1 className="projectName">{props.name}</h1>
                 <p className="projectDescription">{props.description}</p>
             </div>
-            <div className="projectImg">
-                <img src={props.image} alt={props.name} />
-            </div>
+            <div
+                style={{
+                    backgroundImage: `url(${props.image})`,
+                    backgroundSize: "contain",
+                    backgroundPosition: "center center",
+                    backgroundRepeat: "no-repeat",
+                }}
+            ></div>
         </motion.a>
     );
 };
