@@ -58,7 +58,7 @@ body {
 }
 
 .link.Projects {
-    color: #ffff66;
+    color: #ffcc00;
 }
 
 .link.Skills {
@@ -142,15 +142,164 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 10px 60px 10px;
+    flex-direction: column;
+    gap: 25px;
+    padding: 80px 10px 20px 10px;
 }
 
-.projectsTitle {
+.projectsTitle,
+.projectCategory,
+.projectName {
     background: linear-gradient(45deg, #ffff99, #ffcc00, #ffff99, #ffcc00);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     font-size: 40px;
+}
+
+.projectsTitle {
+    padding-right: 10px;
+}
+
+.projectCategoryDropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    position: relative;
+}
+
+.projectCategory {
+    font-size: 28px;
+}
+
+.projectDropdownIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ffcc00;
+    padding: 8px;
+    border: 1px solid #ffcc00;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.projectDropdownIcon.active {
+    transform: rotate(-90deg);
+}
+
+.projectDropdownMenu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 10px;
+    background-color: rgb(24, 24, 23);
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.projectDropdownItem {
+    font-size: 21px;
+    color: grey;
+    cursor: pointer;
+    transition: color 0.1s ease;
+}
+
+.projectDropdownItem:hover {
+    color: white;
+}
+
+.projectDropdownItem.active {
+    color: #ffcc00;
+}
+
+.projectCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.projectContainer {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgb(24, 24, 23);
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.projectName {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.projectDescription {
+    font-size: 18px;
+}
+
+.goBack,
+.goForward {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffcc00;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #ffcc00;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.goBack:hover,
+.goForward:hover {
+    transform: scale(1.1);
+}
+
+.goBack:active,
+.goForward:active {
+    transform: scale(0.9);
+}
+
+.projectIndexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+}
+
+.projectIndex {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(73, 73, 73);
+}
+
+.projectIndex.active {
+    background-color: #ffcc00;
+    height: 12px;
+    width: 12px;
 }
 
 .skillsTitleContainer {
@@ -182,15 +331,17 @@ body {
 .skillCard {
     padding: 20px 10px;
     width: 100px;
-    background: linear-gradient(45deg, #b301ff, #ff00ff);
+    background: linear-gradient(45deg, #383838, #000000);
     border-radius: 3px;
-    box-shadow: 5px 5px 5px 1px rgb(44, 44, 44);
+    box-shadow: 0 0 3px 3px rgb(24, 24, 23);
     cursor: pointer;
 }
 
 .skillName {
     text-align: center;
     user-select: none;
+    font-size: 16px;
+    color: #b300ff;
 }
 
 .contactsTitleContainer {
@@ -236,12 +387,10 @@ body {
 }
 
 .socials {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 110px;
-    z-index: 1;
 }
 
 .line {
