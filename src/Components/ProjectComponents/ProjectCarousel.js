@@ -60,11 +60,17 @@ const ProjectCarousel = (props) => {
                     <FaArrowRight />
                 </motion.button>
             </div>
-            <div className="projectIndexContainer">
+
+            <motion.div
+                className="projectIndexContainer"
+                variants={props.variants}
+                initial="initial"
+                animate="final"
+            >
                 {new Array(projectArray.length).fill(0).map((_, i) => (
                     <ProjectIndex key={i} isActive={i === currentProject} />
                 ))}
-            </div>
+            </motion.div>
         </>
     );
 };
