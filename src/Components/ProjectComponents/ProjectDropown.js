@@ -9,10 +9,10 @@ const ProjectDropown = (props) => {
     const list = {
         open: {
             opacity: 1,
-            x: 0,
+            x: 100,
             transition: { delayChildren: 0.3, staggerChildren: 0.1 },
         },
-        closed: { opacity: 0, x: 100 },
+        closed: { opacity: 0, x: 0 },
     };
 
     const item = {
@@ -51,6 +51,8 @@ const ProjectDropown = (props) => {
                                     : "projectDropdownItem"
                             }
                             onClick={() => props.onClick(category)}
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
                         >
                             {category}
                         </motion.li>
