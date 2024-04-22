@@ -19,7 +19,11 @@ const Home = () => {
 
     const titleVariants = {
         initial: { opacity: 0, x: -20 },
-        final: { opacity: 1, x: 0, transition: { duration: 0.3 } },
+        final: {
+            opacity: 1,
+            x: 0,
+            transition: { type: "spring", duration: 0.5 },
+        },
     };
 
     const articleVariants = {
