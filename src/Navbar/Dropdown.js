@@ -11,10 +11,10 @@ const Sidebar = () => {
     const list = {
         open: {
             opacity: 1,
-            x: 0,
+            x: -10,
             transition: { delayChildren: 0.3, staggerChildren: 0.1 },
         },
-        closed: { opacity: 0, x: 100 },
+        closed: { opacity: 0, x: 20 },
     };
 
     const item = {
