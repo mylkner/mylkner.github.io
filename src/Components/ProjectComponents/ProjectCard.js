@@ -28,6 +28,8 @@ const ProjectCard = (props) => {
             </div>
             <div
                 style={{
+                    width: "100%",
+                    height: "100%",
                     backgroundImage: `url(${props.image})`,
                     backgroundSize: "contain",
                     backgroundPosition: "center center",
