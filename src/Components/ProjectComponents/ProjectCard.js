@@ -11,12 +11,16 @@ const ProjectCard = (props) => {
     };
 
     return (
-        <motion.div
+        <motion.a
             className="projectContainer"
+            href={props.link}
+            target="_blank"
             key={props.name}
             variants={variants}
             initial="initial"
             animate="final"
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.9 }}
         >
             <div className="projectInfo">
                 <h1 className="projectName">{props.name}</h1>
@@ -25,7 +29,7 @@ const ProjectCard = (props) => {
             <div className="projectImg">
                 <img src={props.image} alt={props.name} />
             </div>
-        </motion.div>
+        </motion.a>
     );
 };
 
