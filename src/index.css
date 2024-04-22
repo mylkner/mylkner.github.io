@@ -258,15 +258,22 @@ body {
     gap: 20px;
 }
 
-.socialLink {
+.socialIcon {
     font-size: 40px;
-    transition: color 0.1s;
+    transition: color, transform 0.2s;
+    color: #ff94d5;
 }
 
 .socialLink:visited {
-    color: white;
+    color: #ff94d5;
 }
 
-.socialLink:hover {
+.socialIcon:hover {
     color: #e20071;
+    transform: scale(1.2);
+}
+
+.socialIcon:active {
+    color: #e20071;
+    transform: scale(0.9);
 }
