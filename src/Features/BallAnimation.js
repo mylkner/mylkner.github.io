@@ -14,7 +14,7 @@ const BallAnimation = () => {
             style={{
                 position: "absolute",
                 top: Math.random() * 100 + 530,
-                backgroundColor: "pink",
+                backgroundColor: Math.random() >= 0.5 ? "#ff94d5" : "#e20071",
                 width: "10px",
                 height: "10px",
                 borderRadius: "50%",
