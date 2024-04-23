@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 
 const ProjectCarousel = (props) => {
     const [currentProject, setCurrentProject] = useState(0);
-    const [direction, setDirection] = useState(null);
+    const [direction, setDirection] = useState(true);
 
     useEffect(() => {
         setCurrentProject(0);
