@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
-import ProjectIndex from "./ProjectIndexer";
 
 const ProjectCarousel = (props) => {
     const [currentProject, setCurrentProject] = useState(0);
@@ -39,27 +38,7 @@ const ProjectCarousel = (props) => {
     return (
         <>
             <div className="projectCarousel">
-                <motion.button
-                    className="goBack"
-                    onClick={handleBack}
-                    variants={props.variants}
-                    initial="initial"
-                    animate="final"
-                >
-                    <FaArrowLeft />
-                </motion.button>
-
                 {projectArray[currentProject]}
-
-                <motion.button
-                    className="goForward"
-                    onClick={handleForward}
-                    variants={props.variants}
-                    initial="initial"
-                    animate="final"
-                >
-                    <FaArrowRight />
-                </motion.button>
             </div>
 
             <motion.div
@@ -68,9 +47,24 @@ const ProjectCarousel = (props) => {
                 initial="initial"
                 animate="final"
             >
+                <button className="goBack" onClick={handleBack}>
+                    <FaArrowLeft />
+                </button>
+
                 {new Array(projectArray.length).fill(0).map((_, i) => (
-                    <ProjectIndex key={i} isActive={i === currentProject} />
+                    <div
+                        key={i}
+                        className={
+                            currentProject === i
+                                ? "projectIndex active"
+                                : "projectIndex"
+                        }
+                    />
                 ))}
+
+                <button className="goForward" onClick={handleForward}>
+                    <FaArrowRight />
+                </button>
             </motion.div>
         </>
     );
