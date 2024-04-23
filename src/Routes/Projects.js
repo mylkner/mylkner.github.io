@@ -34,15 +34,16 @@ const Projects = () => {
                 initial="initial"
                 animate="final"
             >
-                <span className="projectCategoryDropdown">
-                    <h1 className="projectsTitle">Projects</h1>
-                    <ProjectDropown
-                        onClick={handleClick}
-                        currentCategory={projectCategory}
-                    />
-                </span>
-                <h2 className="projectCategory">{projectCategory}</h2>
+                <h1 className="projectsTitle">Projects</h1>
             </motion.div>
+
+            <span className="projectCategoryDropdown">
+                <ProjectDropown
+                    onClick={handleClick}
+                    currentCategory={projectCategory}
+                />
+                <h2 className="projectCategory">{projectCategory}</h2>
+            </span>
 
             <ProjectCarousel
                 projectData={projectDataMap[projectCategory]}
