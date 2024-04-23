@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import {
     Route,
-    createBrowserRouter,
+    createHashRouter,
     createRoutesFromElements,
     RouterProvider,
 } from "react-router-dom";
@@ -14,7 +14,7 @@ import Projects from "./Routes/Projects";
 import Skills from "./Routes/Skills";
 import Contact from "./Routes/Contact";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
     createRoutesFromElements(
         <Route path="/" element={<Navbar />} errorElement={<ErrorPage />}>
             <Route index element={<Home />}></Route>
