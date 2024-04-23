@@ -24,14 +24,14 @@ const ProjectCarousel = (props) => {
     );
 
     const handleBack = () => {
-        setDirection(true);
+        setDirection(false);
         setCurrentProject(
             (currentProject - 1 + projectArray.length) % projectArray.length
         );
     };
 
     const handleForward = () => {
-        setDirection(false);
+        setDirection(true);
         setCurrentProject((currentProject + 1) % projectArray.length);
     };
 
