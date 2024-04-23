@@ -89,7 +89,7 @@ body {
 
 .dropdownIcon {
     cursor: pointer;
-    padding: 0 20px 0 80px;
+    margin: 0 20px 0 80px;
     font-size: 30px;
     transition: transform 0.2s;
 }
