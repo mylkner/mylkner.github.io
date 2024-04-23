@@ -5,13 +5,14 @@ import aboutMeText from "../Assets/aboutMeText";
 const Home = () => {
     const [text, setText] = useState("");
     const count = useRef(1);
+    const timeout = count.current === 1 ? 700 : 20;
 
     useEffect(() => {
         if (count.current <= aboutMeText.length) {
             const timer = setTimeout(() => {
                 setText(aboutMeText.slice(0, count.current));
                 count.current += 1;
-            }, 20);
+            }, timeout);
 
             return () => clearTimeout(timer);
         }
@@ -26,11 +27,6 @@ const Home = () => {
         },
     };
 
-    const articleVariants = {
-        initial: { opacity: 0 },
-        final: { opacity: 1, transition: { delay: 0.1, duration: 0.5 } },
-    };
-
     return (
         <div className="home">
             <div className="homeInfo">
@@ -42,14 +38,7 @@ const Home = () => {
                 >
                     About Me
                 </motion.h1>
-                <motion.article
-                    className="homeAbout"
-                    variants={articleVariants}
-                    initial="initial"
-                    animate="final"
-                >
-                    {text}
-                </motion.article>
+                <article className="homeAbout">{text}</article>
             </div>
         </div>
     );
