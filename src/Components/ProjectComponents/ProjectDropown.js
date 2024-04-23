@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaArrowDown } from "react-icons/fa";
+import { FaArrowUp } from "react-icons/fa";
 
 const ProjectDropown = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,15 +9,20 @@ const ProjectDropown = (props) => {
     const list = {
         open: {
             opacity: 1,
-            x: 80,
+            y: -90,
             transition: { delayChildren: 0.3, staggerChildren: 0.1 },
         },
-        closed: { opacity: 0, x: 62 },
+        closed: { opacity: 0, y: 100 },
     };
 
     const item = {
         open: { opacity: 1 },
         closed: { opacity: 0 },
+    };
+
+    const handleClick = (category) => {
+        setIsOpen(false);
+        props.onClick(category);
     };
 
     return (
@@ -30,7 +35,7 @@ const ProjectDropown = (props) => {
                 }
                 onClick={() => setIsOpen(!isOpen)}
             >
-                <FaArrowDown />
+                <FaArrowUp />
             </div>
 
             {isOpen && (
@@ -50,7 +55,7 @@ const ProjectDropown = (props) => {
                                     ? "projectDropdownItem active"
                                     : "projectDropdownItem"
                             }
-                            onClick={() => props.onClick(category)}
+                            onClick={() => handleClick(category)}
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
                         >
