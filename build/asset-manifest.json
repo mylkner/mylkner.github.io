@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.062c5752.css",
+    "main.js": "/static/js/main.dd4ab142.js",
+    "static/media/quote.png": "/static/media/quote.4b66de848e2e6e3a67f7.png",
+    "static/media/calc.png": "/static/media/calc.948e30b962cb7aba1233.png",
+    "static/media/choro.png": "/static/media/choro.4c1b96e2194c957ec75d.png",
+    "static/media/drum.png": "/static/media/drum.7b07c5a5260a50c91dc8.png",
+    "static/media/heat.png": "/static/media/heat.c39193de2c3743a02461.png",
+    "static/media/tree.png": "/static/media/tree.69be1143786895c40b8f.png",
+    "static/media/markdown.png": "/static/media/markdown.5ee3d7ae3a0b4dfac84d.png",
+    "static/media/clock.png": "/static/media/clock.a2af8574e4242a0e823e.png",
+    "static/media/palindrome.png": "/static/media/palindrome.b384b6c1a641c09fc4b5.png",
+    "static/media/roman.png": "/static/media/roman.4d990d27c5a03411b2db.png",
+    "static/media/scatter.png": "/static/media/scatter.5d8e61c4eb816c1746f1.png",
+    "static/media/bar.png": "/static/media/bar.67fbe983e9a893d06b0e.png",
+    "static/media/pokemon.png": "/static/media/pokemon.24b930135b2717b353f2.png",
+    "static/media/phone.png": "/static/media/phone.9d116e4f21b253c44066.png",
+    "index.html": "/index.html",
+    "main.062c5752.css.map": "/static/css/main.062c5752.css.map",
+    "main.dd4ab142.js.map": "/static/js/main.dd4ab142.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.062c5752.css",
+    "static/js/main.dd4ab142.js"
+  ]
+}
