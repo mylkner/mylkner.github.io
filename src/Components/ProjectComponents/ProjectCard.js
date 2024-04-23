@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const ProjectCard = (props) => {
     const variants = {
-        initial: { opacity: 0, x: props.direction ? 500 : -500 },
+        initial: { opacity: 0, x: props.direction ? -500 : 500 },
         final: {
             opacity: 1,
             x: 0,
