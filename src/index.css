@@ -203,7 +203,7 @@ body {
 }
 
 .projectDropdownIcon.active {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
 }
 
 .projectDropdownMenu {
