@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const ProjectDropown = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +35,7 @@ const ProjectDropown = (props) => {
                 }
                 onClick={() => setIsOpen(!isOpen)}
             >
-                <FaArrowUp />
+                <FaArrowRight />
             </div>
 
             {isOpen && (
