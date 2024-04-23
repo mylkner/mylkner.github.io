@@ -41,6 +41,7 @@ const Sidebar = () => {
                             key={link.title}
                             variants={item}
                             className="dropdownItem"
+                            onClick={() => setIsOpen(false)}
                         >
                             <LinkComponent to={link.to} title={link.title} />
                         </motion.li>
