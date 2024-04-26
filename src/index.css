@@ -404,7 +404,7 @@ body {
     align-items: left;
     margin: auto;
     max-width: 500px;
-    padding: 10vh 20px 0 20px;
+    padding: 15vh 20px 0 20px;
 }
 
 .howToContact {
@@ -428,7 +428,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .line {
