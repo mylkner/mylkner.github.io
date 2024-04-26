@@ -9,10 +9,10 @@ const ProjectDropown = (props) => {
     const list = {
         open: {
             opacity: 1,
-            y: -90,
+            y: 86,
             transition: { delayChildren: 0.3, staggerChildren: 0.1 },
         },
-        closed: { opacity: 0, y: 100 },
+        closed: { opacity: 0, y: -100 },
     };
 
     const item = {
