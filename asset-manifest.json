@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2a0e15e6.css",
-    "main.js": "/static/js/main.73227534.js",
+    "main.js": "/static/js/main.0b24b4fc.js",
     "static/media/quote.png": "/static/media/quote.4b66de848e2e6e3a67f7.png",
     "static/media/calc.png": "/static/media/calc.948e30b962cb7aba1233.png",
     "static/media/choro.png": "/static/media/choro.4c1b96e2194c957ec75d.png",
@@ -15,13 +15,14 @@
     "static/media/scatter.png": "/static/media/scatter.5d8e61c4eb816c1746f1.png",
     "static/media/bar.png": "/static/media/bar.67fbe983e9a893d06b0e.png",
     "static/media/pokemon.png": "/static/media/pokemon.24b930135b2717b353f2.png",
+    "static/media/sudoku.png": "/static/media/sudoku.a8a122ec44e4fdafa898.png",
     "static/media/phone.png": "/static/media/phone.9d116e4f21b253c44066.png",
     "index.html": "/index.html",
     "main.2a0e15e6.css.map": "/static/css/main.2a0e15e6.css.map",
-    "main.73227534.js.map": "/static/js/main.73227534.js.map"
+    "main.0b24b4fc.js.map": "/static/js/main.0b24b4fc.js.map"
   },
   "entrypoints": [
     "static/css/main.2a0e15e6.css",
-    "static/js/main.73227534.js"
+    "static/js/main.0b24b4fc.js"
   ]
 }
