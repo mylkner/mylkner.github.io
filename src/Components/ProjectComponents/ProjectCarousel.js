@@ -41,31 +41,33 @@ const ProjectCarousel = (props) => {
                 {projectArray[currentProject]}
             </div>
 
-            <motion.div
-                className="projectIndexContainer"
-                variants={props.variants}
-                initial="initial"
-                animate="final"
-            >
-                <button className="goBack" onClick={handleBack}>
-                    <FaArrowLeft />
-                </button>
+            {projectArray.length > 1 && (
+                <motion.div
+                    className="projectIndexContainer"
+                    variants={props.variants}
+                    initial="initial"
+                    animate="final"
+                >
+                    <button className="goBack" onClick={handleBack}>
+                        <FaArrowLeft />
+                    </button>
 
-                {new Array(projectArray.length).fill(0).map((_, i) => (
-                    <div
-                        key={i}
-                        className={
-                            currentProject === i
-                                ? "projectIndex active"
-                                : "projectIndex"
-                        }
-                    />
-                ))}
+                    {new Array(projectArray.length).fill(0).map((_, i) => (
+                        <div
+                            key={i}
+                            className={
+                                currentProject === i
+                                    ? "projectIndex active"
+                                    : "projectIndex"
+                            }
+                        />
+                    ))}
 
-                <button className="goForward" onClick={handleForward}>
-                    <FaArrowRight />
-                </button>
-            </motion.div>
+                    <button className="goForward" onClick={handleForward}>
+                        <FaArrowRight />
+                    </button>
+                </motion.div>
+            )}
         </>
     );
 };

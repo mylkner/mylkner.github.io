@@ -4,6 +4,7 @@ import {
     javaScriptProjectData,
     reactProjectData,
     d3ProjectData,
+    mernProjectData,
 } from "../Assets/projectData.js";
 import ProjectCarousel from "../Components/ProjectComponents/ProjectCarousel.js";
 import ProjectDropown from "../Components/ProjectComponents/ProjectDropown.js";
@@ -15,6 +16,7 @@ const Projects = () => {
         JavaScript: javaScriptProjectData,
         React: reactProjectData,
         D3: d3ProjectData,
+        MERN: mernProjectData,
     };
 
     const variants = {

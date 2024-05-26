@@ -4,12 +4,12 @@ import { FaArrowRight } from "react-icons/fa";
 
 const ProjectDropown = (props) => {
     const [isOpen, setIsOpen] = useState(false);
-    const categories = ["JavaScript", "React", "D3"];
+    const categories = ["JavaScript", "React", "D3", "MERN"];
 
     const list = {
         open: {
             opacity: 1,
-            y: 86,
+            y: 105,
             transition: { delayChildren: 0.3, staggerChildren: 0.1 },
         },
         closed: { opacity: 0, y: -100 },
