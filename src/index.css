@@ -38,6 +38,19 @@ body {
     background-color: black;
 }
 
+.errorLink {
+    color: rgb(17, 233, 233);
+    text-decoration: none;
+}
+
+.errorLink:hover {
+    text-decoration: underline;
+}
+
+.errorLink:visited {
+    color: rgb(17, 233, 233);
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
