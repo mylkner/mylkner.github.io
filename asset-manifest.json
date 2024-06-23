@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/static/css/main.2a0e15e6.css",
-    "main.js": "/static/js/main.0b24b4fc.js",
-    "static/media/quote.png": "/static/media/quote.4b66de848e2e6e3a67f7.png",
-    "static/media/calc.png": "/static/media/calc.948e30b962cb7aba1233.png",
-    "static/media/choro.png": "/static/media/choro.4c1b96e2194c957ec75d.png",
-    "static/media/drum.png": "/static/media/drum.7b07c5a5260a50c91dc8.png",
-    "static/media/heat.png": "/static/media/heat.c39193de2c3743a02461.png",
-    "static/media/tree.png": "/static/media/tree.69be1143786895c40b8f.png",
-    "static/media/markdown.png": "/static/media/markdown.5ee3d7ae3a0b4dfac84d.png",
-    "static/media/clock.png": "/static/media/clock.a2af8574e4242a0e823e.png",
-    "static/media/palindrome.png": "/static/media/palindrome.b384b6c1a641c09fc4b5.png",
-    "static/media/roman.png": "/static/media/roman.4d990d27c5a03411b2db.png",
-    "static/media/scatter.png": "/static/media/scatter.5d8e61c4eb816c1746f1.png",
-    "static/media/bar.png": "/static/media/bar.67fbe983e9a893d06b0e.png",
-    "static/media/pokemon.png": "/static/media/pokemon.24b930135b2717b353f2.png",
-    "static/media/sudoku.png": "/static/media/sudoku.a8a122ec44e4fdafa898.png",
-    "static/media/phone.png": "/static/media/phone.9d116e4f21b253c44066.png",
+    "main.js": "/static/js/main.76f5ac2f.js",
+    "static/media/quote.png": "/static/media/quote.777e195bc571b3d979a8.png",
+    "static/media/calc.png": "/static/media/calc.df79d7efa9b1f311d9d7.png",
+    "static/media/choro.png": "/static/media/choro.f5f2ebef7c92172d1e5c.png",
+    "static/media/sound.png": "/static/media/sound.d0340b6f1be85e7bf78a.png",
+    "static/media/heat.png": "/static/media/heat.01ec28bafa1327900983.png",
+    "static/media/markdown.png": "/static/media/markdown.19e859180efebca5e8ec.png",
+    "static/media/treemap.png": "/static/media/treemap.e47af2c485486860275e.png",
+    "static/media/25cl.png": "/static/media/25cl.ced9bb5168ee85c8562a.png",
+    "static/media/scatter.png": "/static/media/scatter.06ed75ec9c2026caf847.png",
+    "static/media/bar.png": "/static/media/bar.5f417443ef5c6da95a4e.png",
+    "static/media/pokemon.png": "/static/media/pokemon.56cb72502473c8e62ade.png",
+    "static/media/sudoku.png": "/static/media/sudoku.c61932d17d191098a3bb.png",
+    "static/media/todo.png": "/static/media/todo.afcb858ae03d89b283f7.png",
+    "static/media/roman.png": "/static/media/roman.2bea31dcee553b73e3bb.png",
+    "static/media/palindrome.png": "/static/media/palindrome.45b8c3e5291b4f869bd7.png",
+    "static/media/phoneNum.png": "/static/media/phoneNum.901ab96f3bca57f41d18.png",
     "index.html": "/index.html",
     "main.2a0e15e6.css.map": "/static/css/main.2a0e15e6.css.map",
-    "main.0b24b4fc.js.map": "/static/js/main.0b24b4fc.js.map"
+    "main.76f5ac2f.js.map": "/static/js/main.76f5ac2f.js.map"
   },
   "entrypoints": [
     "static/css/main.2a0e15e6.css",
-    "static/js/main.0b24b4fc.js"
+    "static/js/main.76f5ac2f.js"
   ]
 }
