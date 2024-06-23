@@ -1,6 +1,6 @@
 const navRoutes = [
     {
-        to: "/home",
+        to: "/",
         title: "Home",
     },
     {
