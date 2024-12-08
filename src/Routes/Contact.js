@@ -43,9 +43,9 @@ const Contact = () => {
                 animate="final"
             >
                 <p className="howToContact">
-                    Feel free to contact me at my socials below, or by email at{" "}
-                    <a href="mailto:mylofaulkner27@gmail.com" className="email">
-                        mylofaulkner27@gmail.com
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit{" "}
+                    <a href="mailto:sampleemail@gmail.com" className="email">
+                        sampleemail@gmail.com
                     </a>
                     .
                 </p>
@@ -61,7 +61,7 @@ const Contact = () => {
 
                 <span className="socialIcons">
                     <a
-                        href="https://github.com/mylkner"
+                        href="https://github.com/"
                         className="socialLink"
                         target="_blank"
                         rel="noreferrer"
@@ -70,7 +70,7 @@ const Contact = () => {
                     </a>
 
                     <a
-                        href="https://linkedin.com/in/mylo-faulkner"
+                        href="https://linkedin.com/"
                         className="socialLink"
                         target="_blank"
                         rel="noreferrer"
