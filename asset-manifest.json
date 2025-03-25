@@ -1,29 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.50a81847.css",
-    "main.js": "/static/js/main.cc4265df.js",
-    "static/media/quote.png": "/static/media/quote.777e195bc571b3d979a8.png",
-    "static/media/calc.png": "/static/media/calc.df79d7efa9b1f311d9d7.png",
-    "static/media/choro.png": "/static/media/choro.f5f2ebef7c92172d1e5c.png",
-    "static/media/sound.png": "/static/media/sound.d0340b6f1be85e7bf78a.png",
-    "static/media/heat.png": "/static/media/heat.01ec28bafa1327900983.png",
-    "static/media/markdown.png": "/static/media/markdown.19e859180efebca5e8ec.png",
-    "static/media/treemap.png": "/static/media/treemap.e47af2c485486860275e.png",
-    "static/media/25cl.png": "/static/media/25cl.ced9bb5168ee85c8562a.png",
-    "static/media/scatter.png": "/static/media/scatter.06ed75ec9c2026caf847.png",
-    "static/media/bar.png": "/static/media/bar.5f417443ef5c6da95a4e.png",
-    "static/media/pokemon.png": "/static/media/pokemon.56cb72502473c8e62ade.png",
-    "static/media/sudoku.png": "/static/media/sudoku.c61932d17d191098a3bb.png",
-    "static/media/todo.png": "/static/media/todo.afcb858ae03d89b283f7.png",
-    "static/media/roman.png": "/static/media/roman.2bea31dcee553b73e3bb.png",
-    "static/media/palindrome.png": "/static/media/palindrome.45b8c3e5291b4f869bd7.png",
-    "static/media/phoneNum.png": "/static/media/phoneNum.901ab96f3bca57f41d18.png",
+    "main.js": "/static/js/main.8650b013.js",
     "index.html": "/index.html",
     "main.50a81847.css.map": "/static/css/main.50a81847.css.map",
-    "main.cc4265df.js.map": "/static/js/main.cc4265df.js.map"
+    "main.8650b013.js.map": "/static/js/main.8650b013.js.map"
   },
   "entrypoints": [
     "static/css/main.50a81847.css",
-    "static/js/main.cc4265df.js"
+    "static/js/main.8650b013.js"
   ]
 }
