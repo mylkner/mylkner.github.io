@@ -14,6 +14,6 @@ const skills = [
     "Skill 13",
     "Skill 14",
     "Skill 15",
-]
+];
 
 export default skills;

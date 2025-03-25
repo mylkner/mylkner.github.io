@@ -1,137 +1,125 @@
-const imgs = require.context("./images", false);
-const images = imgs.keys().map((image) => imgs(image));
-
-const getCoverImg = (title) => {
-    const regex = new RegExp(title, "gi");
-
-    for (let i = 0; i < images.length; i++) {
-        if (regex.test(images[i])) return images[i];
-    }
-};
-
-const javaScriptProjectData = [
+const sampleCategory1 = [
     {
-        name: "Palindrome Checker",
+        name: "C1Sample1",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("palindrome"),
-        link: "https://mylkner.github.io/Palindrome-Checker/",
+        image: "",
+        link: "",
     },
     {
-        name: "Roman Numeral Converter",
+        name: "C1Sample2",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("roman"),
-        link: "https://mylkner.github.io/Roman-Numeral-Converter/",
+        image: "",
+        link: "",
     },
     {
-        name: "Phone Number Validator",
+        name: "C1Sample3",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("phoneNum"),
-        link: "https://mylkner.github.io/Phone-Number-Validator/",
+        image: "",
+        link: "",
     },
     {
-        name: "Pokemon Index",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("pokemon"),
-        link: "https://mylkner.github.io/Pokemon-Search-App/",
+        name: "C1Sample4",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
+        image: "",
+        link: "",
     },
 ];
 
-const reactProjectData = [
+const sampleCategory2 = [
     {
-        name: "Random Quote Machine",
+        name: "C2Sample1",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("quote"),
-        link: "https://mylkner.github.io/random-quote-machine/",
+        image: "",
+        link: "",
     },
     {
-        name: "Markdown Previewer",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("markdown"),
-        link: "https://mylkner.github.io/markdown-previewer/",
-    },
-    {
-        name: "Drum Machine",
+        name: "C2Sample2",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("sound"),
-        link: "https://mylkner.github.io/drum-machine/",
+        image: "",
+        link: "",
     },
     {
-        name: "Calculator",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("calc"),
-        link: "https://mylkner.github.io/calculator/",
-    },
-    {
-        name: "25 + 5 Clock",
+        name: "C2Sample3",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("25cl"),
-        link: "https://mylkner.github.io/255clock/",
+        image: "",
+        link: "",
     },
     {
-        name: "To Do App",
+        name: "C2Sample4",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("todo"),
-        link: "https://mylkner.github.io/todo_app",
+        image: "",
+        link: "",
     },
 ];
 
-const d3ProjectData = [
+const sampleCategory3 = [
     {
-        name: "Bar Chart",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("bar"),
-        link: "https://mylkner.github.io/Bar-Chart/",
-    },
-    {
-        name: "Scatterplot Graph",
+        name: "C3Sample1",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("scatter"),
-        link: "https://mylkner.github.io/Scatterplot-Graph/",
+        image: "",
+        link: "",
     },
     {
-        name: "Heat Map",
+        name: "C3Sample2",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("heat"),
-        link: "https://mylkner.github.io/Heat-Map/",
+        image: "",
+        link: "",
     },
     {
-        name: "Choropleth Map",
+        name: "C3Sample3",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("choro"),
-        link: "https://mylkner.github.io/Choropleth-Map/",
+        image: "",
+        link: "",
     },
     {
-        name: "Treemap Diagram",
+        name: "C3Sample4",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("treemap"),
-        link: "https://mylkner.github.io/Treemap-Diagram/",
+        image: "",
+        link: "",
     },
 ];
 
-const mernProjectData = [
+const sampleCategory4 = [
     {
-        name: "Sudoku",
+        name: "C4Sample1",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
-        image: getCoverImg("sudoku"),
-        link: "https://sudoku-theta-flax.vercel.app/",
+        image: "",
+        link: "",
+    },
+    {
+        name: "C4Sample2",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
+        image: "",
+        link: "",
+    },
+    {
+        name: "C4Sample3",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
+        image: "",
+        link: "",
+    },
+    {
+        name: "C4Sample4",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor eros, auctor vitae mauris id, mollis aliquet enim.",
+        image: "",
+        link: "",
     },
 ];
 
-export {
-    javaScriptProjectData,
-    reactProjectData,
-    d3ProjectData,
-    mernProjectData,
-};
+export { sampleCategory1, sampleCategory2, sampleCategory3, sampleCategory4 };

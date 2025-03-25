@@ -1,22 +1,22 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import {
-    javaScriptProjectData,
-    reactProjectData,
-    d3ProjectData,
-    mernProjectData,
+    sampleCategory1,
+    sampleCategory2,
+    sampleCategory3,
+    sampleCategory4,
 } from "../Assets/projectData.js";
 import ProjectCarousel from "../Components/ProjectComponents/ProjectCarousel.js";
-import ProjectDropown from "../Components/ProjectComponents/ProjectDropown.js";
+import ProjectDropdown from "../Components/ProjectComponents/ProjectDropdown.js";
 
 const Projects = () => {
-    const [projectCategory, setProjectCategory] = useState("JavaScript");
+    const [projectCategory, setProjectCategory] = useState("Sample Category 1");
 
     const projectDataMap = {
-        JavaScript: javaScriptProjectData,
-        React: reactProjectData,
-        D3: d3ProjectData,
-        MERN: mernProjectData,
+        "Sample Category 1": sampleCategory1,
+        "Sample Category 2": sampleCategory2,
+        "Sample Category 3": sampleCategory3,
+        "Sample Category 4": sampleCategory4,
     };
 
     const variants = {
@@ -45,7 +45,7 @@ const Projects = () => {
                 initial="initial"
                 animate="final"
             >
-                <ProjectDropown
+                <ProjectDropdown
                     onClick={handleClick}
                     currentCategory={projectCategory}
                 />

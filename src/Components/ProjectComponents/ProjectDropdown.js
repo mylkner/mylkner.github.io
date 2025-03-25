@@ -2,9 +2,14 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 
-const ProjectDropown = (props) => {
+const ProjectDropdown = (props) => {
     const [isOpen, setIsOpen] = useState(false);
-    const categories = ["JavaScript", "React", "D3", "MERN"];
+    const categories = [
+        "Sample Category 1",
+        "Sample Category 2",
+        "Sample Category 3",
+        "Sample Category 4",
+    ];
 
     const list = {
         open: {
@@ -68,4 +73,4 @@ const ProjectDropown = (props) => {
     );
 };
 
-export default ProjectDropown;
+export default ProjectDropdown;
